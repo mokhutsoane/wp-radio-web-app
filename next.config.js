@@ -1,16 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
-  basePath: '/home',
-  assetPrefix: '/home/',
+  basePath: "/home",
+  assetPrefix: "/home/",
   reactStrictMode: true,
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'radiodb.famcast.co.za',
-        port: '',
-        pathname: '/mohodi/**',
+        protocol: "https",
+        hostname: "radiodb.famcast.co.za",
+        port: "",
+        pathname: "/**",
       },
     ],
   }, // Recommended for the `pages` directory, default in `app`.

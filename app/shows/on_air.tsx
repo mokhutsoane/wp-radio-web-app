@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import TimeLeft from './timeleft';
-import OtherComponent from '../../ui/radio/OtherComponent';
+import PlayButton from '../../ui/radio/PlayButton';
 
 export default function OnAir({ data }:{ data: any }) {
     const newEnd = data?.broadcast?.current_show?.end === '00:00' ? '23:59' : data?.broadcast?.current_show?.end;
@@ -43,7 +43,7 @@ export default function OnAir({ data }:{ data: any }) {
                 {newEnd ?? ''}
               </div>
             </div>
-      <OtherComponent/>
+      <PlayButton/>
 
           </div>
         </div>

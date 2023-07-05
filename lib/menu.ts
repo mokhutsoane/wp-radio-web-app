@@ -18,11 +18,6 @@ export const menu: { name: string; items: Item[] }[] = [
         slug: "news",
         description: "Create UI that is shared across routes",
       },
-      {
-        name: "About Us",
-        slug: "about",
-        description: "Create UI that is shared across routes",
-      },
 
       {
         name: "Contact Us",

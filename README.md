@@ -1,3 +1,9 @@
+WordPress Nextjs Radio Web App
+
+See Flutter Mobile App here [Radio App](https://play.google.com/store/apps/details?id=com.famcast.EnergyFMSA)
+
+Needs Wordpress plugin: Radio Station by netmix “https://wordpress.org/plugins/radio-station/”
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
