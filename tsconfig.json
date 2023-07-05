@@ -14,15 +14,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "#/*": ["./*"]
+    },
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/page.jsx", "app/layout.js", "ui/tabs/tabs.js", "app/news/news-componant.tss", "app/news/news-componant.tsx", "app/news/page.js", "app/news/[slug]/page.jsx", "ui/contact/contact-row.tsx", "app/contact/page.jsx"],
   "exclude": ["node_modules"]
 }
